@@ -1,0 +1,271 @@
+
+*{
+margin: 0;
+
+}
+
+.nav-bar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 8fr 1fr 1fr;
+    
+    
+    height: 70px;
+    background-color: white;
+    position: fixed
+}
+.video{
+    padding-left: 72px;
+    width: 1200px;
+    height: 700px
+    
+    
+}
+
+.logo{
+    padding-left: 26px; 
+    padding-top: 13px
+}
+.nav-bar-text{
+    padding-left: 26px;
+    padding-top: 30px;
+    font-family:AvenirNext, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #393e46;
+    letter-spacing:1.6px
+}
+a{
+    text-decoration: none;
+}
+.nav-bar i{
+    padding: 30px;
+    color: #393e46;
+}
+.btn{
+    color: white;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: rgb(5, 80, 5);
+    transform: translate(1263px,-600px);
+    font-size: 20px;
+    padding-bottom: .3cm;
+    padding-left: .2cm;
+    border-style: none;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 5px 5px #888888;
+    
+    
+    
+}
+.btn:hover{
+    background-color: black;
+    letter-spacing: 5px;
+    box-shadow: 0 0px 0px;
+    color: white;
+    
+    
+
+}
+
+    
+.body-middle-text-wrapp{
+    width: 89%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr .5fr;
+    background-color: white;
+
+}
+t1{
+    font-family :LandRoverWeb-Bold, Arial, Helvetica, sans-serif;
+    font-size:36px;
+    letter-spacing:1.9px;
+    font-weight:550;
+    text-decoration:none solid rgb(12, 18, 28);
+    line-height:38px
+}
+t2{
+    font-family: AvenirNext, arial, helvetica, sans-serif;
+    line-height: 27.6px;    
+}
+.text-below-but{
+    font-family :arial, helvetica, sans-serif;
+    letter-spacing:2px;
+    font-weight:700;
+    font-size:10px;
+    line-height:40px;
+}
+button{
+    display: block;
+    width: 256px;
+    height: 52px;
+    letter-spacing: 2px;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border-width: thin;
+    border-color: black;
+}
+.our-family-wrap{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    height: 330px;
+    background-color: white;
+    margin: auto
+}
+.bottom-image{
+    width: 376.66px;
+    height: 215.27px;
+    
+}
+t3{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: .09px;
+    font-weight: 450;
+    text-decoration:none solid rgb(12, 18, 28)
+
+}
+t4{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .02px;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.our-vehicles-wrap{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr;
+    grid-gap: 35px;
+    height: 1670px;
+    background-color: white;
+    margin: auto
+
+}
+.amazon-wrap{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    height: 500px;
+    background-color: white;
+    margin: auto
+
+}
+.explore-landrover-wrap{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    height: 330px;
+    background-color: white;
+    margin: auto
+}
+.explor-land-rover-wrapper{
+    margin: auto;
+    width: 89%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 500px;
+    background-color: white;
+    gap: 30px;
+}   
+.find-wrapper{
+    width: 89%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    height: 470px;
+    background-color: white;
+    margin: auto
+}
+.build-land-rover-wrapper{
+    margin: auto;
+    width: 89%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+    background-color:white;
+    gap: 30px
+}   
+.mini-logo-wrapper{
+    
+    margin: auto;
+    width: 89%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 200px;
+    background-color: white;
+    gap: 30px;
+  
+}
+.downloads-wraper-main{
+    background-color:rgb(148, 119, 119);
+    
+    width: 100%;
+
+}
+.downloads-wraper{
+    margin: auto;
+    
+    width: 89%;
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr 1fr;
+    height: 560px;
+     column-gap: 40px;
+    
+    
+    
+}   
+.nav-bar-text strong{
+    
+    padding-top: 30px;
+    font-family:AvenirNext, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #393e46;
+    letter-spacing:1.6px
+}
+.footer-wrapper{
+    margin-left: -22px;
+    margin-right: 22px;
+
+    
+    width:auto;
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr 1fr 1fr 
+    1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 85px;
+    background-color: white
+    
+
+}
+.nav-bar-text t{
+    padding-top: 30px;
+    font-family:AvenirNext, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #393e46;
+    letter-spacing:1.6px
+}
